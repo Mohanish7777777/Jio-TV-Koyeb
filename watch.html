@@ -1,0 +1,46 @@
+<!-- Source Code Created By UsefulToolsHub, Find us Telegram https://t.me/usefultools_hub -->
+<html>
+
+<head>
+    <title>Online Player | JioTV - WebApp By Sk</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="https://i.ibb.co/37fVLxB/f4027915ec9335046755d489a14472f2.png"/>
+    <link rel="stylesheet" href="assets/css/playerp.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/plyr@3.6.2/dist/plyr.css" />
+    <script src="https://cdn.jsdelivr.net/npm/plyr@3.6.12/dist/plyr.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@1.1.4/dist/hls.min.js"></script>
+</head>
+
+<body>
+    <div id="loading" class="loading">
+        <div class="loading-text">
+            <span class="loading-text-words">L</span>
+            <span class="loading-text-words">O</span>
+            <span class="loading-text-words">A</span>
+            <span class="loading-text-words">D</span>
+            <span class="loading-text-words">I</span>
+            <span class="loading-text-words">N</span>
+            <span class="loading-text-words">G</span>
+        </div>
+    </div>
+    <video autoplay controls crossorigin poster="" playsinline id="play_link_video">
+        <source type="application/vnd.apple.mpegurl" src="" id="play_link_hls">
+    </video>
+</body>
+
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/crypto.js"></script>
+<script src="assets/js/usftoolshubapp.js?b=1"></script>
+<script>
+setTimeout(videovisible, 3000)
+function videovisible() { document.getElementById('loading').style.display = 'none'; }
+$(document).ready(function(){
+    player_precheck();
+});
+</script>
+</body>
+
+</html>
+<!-- Source Code Created By UsefulToolsHub, Find us Telegram https://t.me/usefultools_hub -->
